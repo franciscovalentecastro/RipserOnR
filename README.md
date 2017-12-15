@@ -59,12 +59,11 @@ plot.diagram( diAG , barcode = TRUE )
 # Parameters
 The parameters for the fucntion **ripserDiag** follow the names of the **Ripser** library parameters :
 
-- **format**         use the specified file format for the input. Options are:
+- **format**    :  use the specified file format for the input. Options are:
   - lower-distance (lower triangular distance matrix; default)
   - upper-distance (upper triangular distance matrix)
   - distance       (full distance matrix)
   - point-cloud    (point cloud in Euclidean space)
   - dipha          (distance matrix in DIPHA file format)
-- **dim <k>**        compute persistent homology up to dimension <k>
-- **threshold <t>**  compute Rips complexes up to diameter <t>
-
+- **dim**       :  compute persistent homology up to dimension <k>
+- **threshold** :  compute Rips complexes up to diameter <t>
