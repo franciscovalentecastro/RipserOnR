@@ -16,7 +16,7 @@ You should put all the files from the Zip in your working folder. The most impor
 * ripser.cpp
 * Makefile
 
-For an easier setup experience we can use Linux ( the R code should work on Windows too, but we need also a compiled .exe from ripser.cpp which would need to setup a compiler like MinGW ). For this to work we need this apps installed, which come in an easy to setup way on most Linux distros :
+For an easier setup experience we can use Linux ( the R code should work on Windows too, but we need also a compiled .exe from ripser.cpp which would need to setup a compiler like MinGW ). For this to work we need this apps installed, which come easily with most Linux distros :
 
 * g++
 * make
