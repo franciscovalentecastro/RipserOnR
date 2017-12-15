@@ -4,7 +4,9 @@ A parser for the output of the C++ library Ripser for calculating Vietoris–Rip
 
 # Download the Files
 
-In the RipserOnR you should select the option "Clone or Download" and then "Download Zip" to get all the necessary files for using this R code.
+On the [RipserOnR](https://github.com/holt0102/RipserOnR) GitHub project page you should select the option "Clone or Download" and then "Download Zip" to get all the necessary files for using this R code. Unzip all the files and put them on your working folder.
+
+**Note : For an advanced user, you should just clone the repo to your working folder.**
 
 # Setup
 
