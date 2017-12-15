@@ -45,6 +45,15 @@ plot.diagram( diaG )
 
 We obtain a function named **ripserDiag** which follows the same usage as **ripsDiag** from the R TDA library. This meaning that we provide the data to which we want to apply **Persistent Homology**, some parameters and this fucntion will return an object that contains all the information of the cycles of the filtration ( as big list of intervals ).
 
+# Plotting
+
+To plot the diagrams and barcodes resulting from the persisten homology of the data we use the function **plot.diagram** from the R TDA library
+
+```
+plot.diagram( diAG )
+plot.diagram( diAG , barcode = TRUE )
+```
+
 # Parameters
 The parameters for the fucntion **ripserDiag** follow the names of the **Ripser** library parameters :
 
