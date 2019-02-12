@@ -1,6 +1,6 @@
 # RipserOnR
 
-A parser for the output of the C++ library Ripser for calculating Vietoris–Rips persistence barcodes so it can be used easily with the TDA library in R.
+A parser for the output of the C++ library Ripser that calculates the Vietoris–Rips persistence barcodes. This makes it easier to be used with the TDA library in R.
 
 # Download the Files
 
