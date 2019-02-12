@@ -87,7 +87,11 @@ ripserDiag = function( X, dimension, threshold, format = "point-cloud" ){
     threshold = as.character( threshold )
     
     ## Run Ripser using system command
-    ripserOut = system2("ripser", args = c( "--dim", dimension, "--threshold", threshold, "--format", format , f), stdout = TRUE)
+    if(.Platform$OS.type == "unix") {
+        ripserOut = system2("./ripser", args = c( "--dim", dimension, "--threshold", threshold, "--format", format , f), stdout = TRUE)
+    } else {
+        ripserOut = system2("ripser", args = c( "--dim", dimension, "--threshold", threshold, "--format", format , f), stdout = TRUE)
+    }
     
     return( parseOutput( ripserOut ) )
 }
