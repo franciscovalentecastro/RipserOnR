@@ -92,7 +92,10 @@ ripserDiag = function( X, dimension, threshold, format = "point-cloud" ){
     } else {
         ripserOut = system2("ripser", args = c( "--dim", dimension, "--threshold", threshold, "--format", format , f), stdout = TRUE)
     }
-    
+
+    ## Add threshold value as death for undying intervals
+    ripserOut = gsub( "\\,\\s\\)" , paste( c( "\\,", as.character(threshold), "\\)" ), collapse = "") , ripserOut )
+
     return( parseOutput( ripserOut ) )
 }
 
